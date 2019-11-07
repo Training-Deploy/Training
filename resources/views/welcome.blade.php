@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Auto Deploy Training MyTv1212
+                    Auto Deploy Training MyTv555
                 </div>
 
                 <div class="links">
