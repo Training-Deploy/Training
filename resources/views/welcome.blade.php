@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Auto Deploy Training MyTv1212
                 </div>
 
                 <div class="links">
