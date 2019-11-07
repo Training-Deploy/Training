@@ -108,11 +108,11 @@ before('deploy:symlink', 'clear-config');
 
 // // Reload PHP-FPM
 task('reload:php-fpm', function() {
-    $stage = input()->hasArgument('stage') ? input() ->getArgument('stage') : null;
+    // $stage = input()->hasArgument('stage') ? input() ->getArgument('stage') : null;
 
-    if ($stage) {
-        run('sudo sudo service php7.3-fpm restart');
-    }
+    // if ($stage) {
+        run('sudo /etc/init.d/php7.3-fpm reload');
+    // }
 })->desc('PHP7 FPM reloaded');
 
 after('cleanup', 'reload:php-fpm');
